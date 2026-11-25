@@ -1,0 +1,32 @@
+{
+  "name": "cortico-world-bili-ops",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "description": "B站运营薄入口：一个 bili_ops 工具转发 bili CLI，命令手册放本地记忆按需查",
+  "cortico": {
+    "kind": "world",
+    "api": 6,
+    "displayName": "B站运营",
+    "tags": [
+      "external-setup",
+      "unofficial-api"
+    ]
+  },
+  "license": "MIT",
+  "author": "然哥",
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "devDependencies": {
+    "tsx": "^4.23.15"
+  },
+  "scripts": {
+    "test": "node --import tsx --test test/bili-ops.test.mjs"
+  }
+}
