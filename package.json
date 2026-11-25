@@ -1,6 +1,6 @@
 {
   "name": "cortico-world-bili-ops",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "type": "module",
   "main": "./src/index.ts",
@@ -28,5 +28,13 @@
   },
   "scripts": {
     "test": "node --import tsx --test test/bili-ops.test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashfsdd/cortico-world-bili-ops.git"
+  },
+  "homepage": "https://github.com/ashfsdd/cortico-world-bili-ops#readme",
+  "bugs": {
+    "url": "https://github.com/ashfsdd/cortico-world-bili-ops/issues"
   }
 }
