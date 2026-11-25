@@ -147,7 +147,7 @@ export class BiliOpsWorld {
         name: 'bili_ops',
         tags: ['read', 'write'],
         description:
-          'B站运营唯一入口：转发 bili 命令行并把 JSON 结果带回来。command 只写子命令（如 "data overview"、"dynamic post"），args 按顺序给参数。具体命令清单和注意事项见记忆「B站运营手册」，不确定就先查记忆，不要猜。account 默认 whale，发下播动态用 live。',
+          'B站运营唯一入口：转发 bili 命令行并把 JSON 结果带回来。command 只写子命令（如 "data overview"、"dynamic post"），args 按顺序给参数。具体命令清单和注意事项见记忆「B站运营手册」，不确定就先查记忆，不要猜。account 默认 whale，发收尾动态用 live。',
         parameters: {
           type: 'object',
           additionalProperties: false,
