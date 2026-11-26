@@ -27,7 +27,8 @@
     "tsx": "^4.23.15"
   },
   "scripts": {
-    "test": "node --import tsx --test test/bili-ops.test.mjs"
+    "test": "node --import tsx --test test/bili-ops.test.mjs",
+    "prepublishOnly": "npm test"
   },
   "repository": {
     "type": "git",
